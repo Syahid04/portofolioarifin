@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Arifin Nur Sahid</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <style>
+    body {
+        background: linear-gradient(to right, #1e1e2f, #0e0e18);
+        color: white;
+        font-family: 'Segoe UI', sans-serif;
+    }
+    .highlight {
+        color: #a58afe;
+    }
+    .btn-purple {
+        background-color: #6c5ce7;
+        border: none;
+        border-radius: 20px;
+    }
+    .btn-purple:hover {
+        background-color: #5a4fd4;
+    }
+    .hero-img {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 50%;
+        border: 4px solid #6c5ce7;
+        margin-top: 20px;
+    }
+    section {
+        padding: 60px 0;
+    }
+    .tools-img {
+        height: 48px; /* Ukuran sama seperti fa-3x */
+        width: auto;
+        display: inline-block;
+        margin-bottom: 10px;
+    }
+    .project-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.certificate-img {
+    width: 100%;
+    height: 180px;
+    object-fit: contain;
+    border-radius: 10px;
+    background-color: white; 
+    padding: 10px;
+    box-sizing: border-box;
+}
+</style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-4">
+        <a class="navbar-brand" href="#">PORTOFOLIO</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                <li class="nav-item"><a class="nav-link" href="#tools">Tools</a></li>
+                <li class="nav-item"><a class="nav-link" href="#project">Project</a></li>
+                <li class="nav-item"><a class="nav-link" href="#certificate">Sertifikat</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="container text-center text-lg-start d-lg-flex align-items-center">
+        <div class="col-lg-6">
+            <h2>Hallo, Saya <span class="highlight">Arifin Nur Sahid</span></h2>
+            <h1 class="fw-bold">UI/UX & Frontend Developer</h1>
+            <p>Saya berasal dari Yogyakarta dan telah fokus mempelajari pemrograman sejak 2022 saat kuliah, 
+              serta mulai mendalami desain sejak 2019. Saya memiliki minat yang kuat dalam pengembangan antarmuka dan pengalaman pengguna, 
+              serta terus belajar untuk mengembangkan solusi digital yang fungsional dan estetik. 
+              Jika Anda ingin merekrut atau mendiskusikan proyek, silakan hubungi saya melalui kontak di bawah ini.</p>
+            <a href="#contact" class="btn btn-purple px-4 py-2 mt-3">Contact</a>
+        </div>
+        <div class="col-lg-6 text-center">
+            <img src="foto-arifin.jpg" alt="Arifin" class="hero-img">
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="container">
+        <h2 class="text-center mb-4">Skills</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="p-3 border rounded bg-dark">
+                    <h4 class="highlight">Hard Skills</h4>
+                    <ul>
+                        <li>HTML, CSS, JavaScript</li>
+                        <li>Bootstrap,</li>
+                        <li>UI/UX Design</li>
+                        <li>Design</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="p-3 border rounded bg-dark">
+                    <h4 class="highlight">Soft Skills</h4>
+                    <ul>
+                        <li>Kerjasama Tim & Kolaborasi</li>
+                        <li>Komunikasi</li>
+                        <li>Manajemen Waktu</li>
+                        <li>Penyelesaian Masalah</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tools Section -->
+<section id="tools" class="container">
+  <h2 class="text-center mb-4">Tools</h2>
+  <div class="row text-center">
+    <!-- HTML, CSS, JS, Bootstrap, Figma -->
+    <div class="col-6 col-md-3 mb-4"><i class="fab fa-html5 fa-3x"></i><p>HTML</p></div>
+    <div class="col-6 col-md-3 mb-4"><i class="fab fa-css3-alt fa-3x"></i><p>CSS</p></div>
+    <div class="col-6 col-md-3 mb-4"><i class="fab fa-js-square fa-3x"></i><p>JavaScript</p></div>
+    <div class="col-6 col-md-3 mb-4"><i class="fab fa-bootstrap fa-3x"></i><p>Bootstrap</p></div>
+    <div class="col-6 col-md-3 mb-4"><i class="fab fa-figma fa-3x"></i><p>Figma</p></div>
+
+    <!-- GitHub -->
+    <div class="col-6 col-md-3 mb-4"><i class="fab fa-github fa-3x"></i><p>GitHub</p></div>
+
+    <!-- Canva, Photoshop, CorelDRAW, Illustrator via PNG/SVG -->
+    <div class="col-6 col-md-3 mb-4">
+      <img src="canva.png" alt="Canva" class="tools-img"><p>Canva</p>
+    </div>
+    <div class="col-6 col-md-3 mb-4">
+      <img src="photoshop.png" alt="Photoshop" class="tools-img"><p>Photoshop</p>
+    </div>
+    <div class="col-6 col-md-3 mb-4">
+      <img src="coreldraw.png" alt="CorelDRAW" class="tools-img"><p>CorelDRAW</p>
+    </div>
+    <div class="col-6 col-md-3 mb-4">
+      <img src="ai.png" alt="Illustrator" class="tools-img"><p>Illustrator</p>
+    </div>
+  </div>
+</section>
+
+    <!-- Project Section -->
+    <section id="project" class="container">
+        <h2 class="text-center mb-4">Project</h2>
+        <div class="row">
+            <div class="col-md-6 mb-4">
+                <div class="card text-dark">
+                    <img src="webbaju1.png" class="card-img-top project-img" alt="Project 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Project 1</h5>
+                        <p class="card-text">Deskripsi singkat tentang project pertama.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="card text-dark">
+                    <img src="webbaju2.png" class="card-img-top project-img" alt="Project 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Project 2</h5>
+                        <p class="card-text">Deskripsi singkat tentang project kedua.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="card text-dark">
+                    <img src="webbtkp.png" class="card-img-top project-img" alt="Project 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Project 2</h5>
+                        <p class="card-text">Deskripsi singkat tentang project kedua.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="card text-dark">
+                    <img src="webkambing.png" class="card-img-top project-img" alt="Project 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Project 2</h5>
+                        <p class="card-text">Deskripsi singkat tentang project kedua.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="card text-dark">
+                    <img src="websepatu.png" class="card-img-top project-img" alt="Project 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Project 2</h5>
+                        <p class="card-text">Deskripsi singkat tentang project kedua.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="card text-dark">
+                    <img src="desainkaos1.png" class="card-img-top project-img" alt="Project 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Project 2</h5>
+                        <p class="card-text">Deskripsi singkat tentang project kedua.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="card text-dark">
+                    <img src="desainkaos2.png" class="card-img-top project-img" alt="Project 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Project 2</h5>
+                        <p class="card-text">Deskripsi singkat tentang project kedua.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="card text-dark">
+                    <img src="designwebbeauty.png" class="card-img-top project-img" alt="Project 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Project 2</h5>
+                        <p class="card-text">Deskripsi singkat tentang project kedua.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="card text-dark">
+                    <img src="designwebstore.png" class="card-img-top project-img" alt="Project 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Project 2</h5>
+                        <p class="card-text">Deskripsi singkat tentang project kedua.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="card text-dark">
+                    <img src="mockupbeauty.png" class="card-img-top project-img" alt="Project 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Project 2</h5>
+                        <p class="card-text">Deskripsi singkat tentang project kedua.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sertifikat Section -->
+    <section id="certificate" class="container">
+        <h2 class="text-center mb-4">Sertifikat</h2>
+        <div class="row text-center">
+            <div class="col-md-4 mb-4">
+                <img src="bikinkarir.png" class="certificate-img" alt="Sertifikat 1">
+                <p>PELUANG KARIR DUNIA IT NON CODING - BIKINKARIR</p>
+            </div>
+            <div class="col-md-4 mb-4">
+                <img src="kulum.jpg" class="certificate-img" alt="Sertifikat 2">
+                <p>INTRODUCTION WEB DEVELOPER FOR CAREER OPPORTUNITIES - KULUM</p>
+            </div>
+            <div class="col-md-4 mb-4">
+                <img src="cyberhub.png" class="certificate-img" alt="Sertifikat 3">
+                <p>KEMANAN SIBER DI ERA DIGITAL - CYBERHUB</p>
+            </div>
+           <div class="col-md-4 mb-4">
+                <img src="minicours_data.png" class="certificate-img" alt="Sertifikat 3">
+                <p>MINICOURS - REVOU</p>
+            </div>
+            <div class="col-md-4 mb-4">
+                <img src="standartkomputer.jpg" class="certificate-img" alt="Sertifikat 3">
+                <p>STANDART COMPUTER</p>
+            </div>
+            <div class="col-md-4 mb-4">
+                <img src="kompetensi.jpg" class="certificate-img" alt="Sertifikat 3">
+                <p>SERTIFIKAT KOMPETENSI - TEKNIK KOMPUTER JARINGAN</p>
+            </div>
+            <div class="col-md-4 mb-4">
+                <img src="penyiarpemula.jpg" class="certificate-img" alt="Sertifikat 3">
+                <p>SERTIFIKAT KOMPETENSI - BALAI TEKKOMDIK DIY</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container text-center">
+        <h2 class="mb-4">Contact</h2>
+        <p>Email: arifin.nur@students.utdi.ac.id</p>
+        <p>LinkedIn: https://www.linkedin.com/in/arifin-nur-8447a231b/</p>
+        <p>Instagram: @arifi.nns</p>
+        <p>Github: https://github.com/Syahid04</p>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
